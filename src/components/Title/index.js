@@ -1,7 +1,10 @@
-export default function Title({ title }){
+export default function Title({ title, icon }){
     return (
         <div>
-            <h1 className="mt-6 m-4 text-5xl font-semibold">{title}</h1>
+            <h1 className="text-xl items-center font-semibold flex flex-raw">
+                {icon}
+                {title}
+            </h1>
         </div>
     )
 }
