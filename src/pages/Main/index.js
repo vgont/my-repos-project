@@ -29,7 +29,7 @@ export default function Main() {
 
     submit();
 
-  }, [newRepo,repositories])
+  }, [newRepo, repositories])
 
 
   function handleInputChange(e) {
